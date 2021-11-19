@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.display-n{
+display:none;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:10px 20px;
+    background-color: rgb(204, 239, 243);
+}
+section{
+    height:60vh;
+}
+.hero-img{
+    padding:40px;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+    color:none;
+}
+.d-ib{
+    display:inline-block;
+}
+.ta-center{
+    text-align:center;
+}
+nav{
+    width:100%;
+    
+}
+.container{
+    width:95%;
+    margin:0 auto;
+    padding:10px 20px;
+}
+nav > ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color:rgb(0, 0, 0);
+}
+main{
+    background-color: rgb(245, 245, 245);
+}
+.intro{
+    width:700px;
+    padding:30px 0;
+    margin:0 auto;
+    text-align: center;
+}
+hr{
+    height:1px;
+    border:none;
+    background-color:rgb(0, 0, 0);
+}
+.intro-sec{
+    padding:20px 0;
+    display:flex;
+    justify-content: space-evenly;
+}
+.intro-sec  img{
+    width:200px;
+    height:200px;
+}
+.intro-sec p{
+    margin-top:10px;
+}
+
+.contact{
+    padding:30px 0;
+   
+}
+.contact img{
+    background-color: inherit;
+    width:200px;
+    height:100px
+}
+
+footer{
+    padding:20px 0;
+    background-color: rgb(176, 224, 230);
+}
+.subpage1{
+    background-color: rgb(253, 249, 215);
+    padding:20% 5%;
+    height:auto;
+    margin:0 auto;
+}
+.content1{
+    padding:10px 20px;
+    margin:0 auto;
+    background-color: rgb(245, 222, 179);
+}
+.social-prof{
+    width:200px;
+    padding:10px;
+    margin:0 auto;
+    background-color: rgb(176, 224, 230);
+    border:1px solid bisque; 
+    text-align: center; 
+}
+.social-prof > ul{
+    padding:20px;
+    color:rgb(0, 0, 0);
+}
+/* section {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+} */
+.menu-ic{
+    display:none;
+}
+#hamburger{
+    display: none;
+}
+
+@media only screen and (max-width:1000px){
+    input[type="checkbox"]:checked ~ .menu-ic {
+        display: block;
+      }
+      .menu-ic > ul{
+          display:block;
+      }
+   
+    .menu > ul{
+        display:none;
+    }
+    
+    .container{
+        text-align: center;
+    }
+    .intro-sec{
+        display: block;
+    }
+    
+#hamburger{
+    display:block;
+}
+    .nav .mobile-bar label:before {
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        position: relative;
+        content: "hamburger";
+        left: 24px;
+        color: #000;
+      }
+
+}
+

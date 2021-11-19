@@ -1,0 +1,115 @@
+
+  
+  .pos-rel {
+    position: relative; }
+  
+  .greyborder {
+    border: 1px solid #c4cdd5; }
+  
+  .check-box {
+    cursor: pointer;
+    width: 28px;
+    height: 28px; }
+    .check-box .checkmark {
+      position: relative;
+      width: 28px;
+      height: 28px;
+      border-radius: 3px; }
+  
+  .focus {
+    border: 1px solid #23c0f5; }
+  
+  .check {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    display: inline-block;
+    transform: rotate(50deg);
+    height: 14px;
+    width: 7px; }
+  
+  .blue-check {
+    border-bottom: 3px solid #4ad5f6;
+    border-right: 3px solid #4ad5f6; }
+  
+ 
+
+  
+
+  
+  div.input-container:nth-child(2) {
+    margin: 30px 0; }
+    div.input-container:nth-child(1) {
+        margin: 30px 0; }
+
+.submit{
+  display: block;
+    padding:10px;
+    margin-top:20px;
+    cursor:pointer;
+}
+.drag{
+  margin-top:10px;
+  display: inline-block;
+}
+#drag1{
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+}
+#drag2{
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+}
+#drag3{
+  width: 100px;
+  height: 100px;
+  background-color: rosybrown;
+}
+#drag4{
+  width: 100px;
+  height: 100px;
+  background-color: peachpuff;
+}
+#drag5{
+  width: 100px;
+  height: 100px;
+  background-color: thistle;
+}
+
+#non-drop {
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+}
+
+ #drop {
+  width:300px;
+  height:200px;
+ 
+} 
+#drag1,#drag2,#drag3,#drag4,#drag5{
+  display:inline-block;
+  cursor: pointer;
+}
+
+.file-form{
+  margin-top:20px;
+  margin-bottom:20px;
+  padding:10px 20px;
+
+}
+ .form-group{
+  border:1px solid #c4cdd5;
+} 
+input{
+  border:none;
+}
+input:focus{
+  outline:none;
+}
+
+
+  
+  
